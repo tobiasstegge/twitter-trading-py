@@ -3,10 +3,10 @@ from tweepy import API, OAuthHandler, TweepError
 
 class Twitter:
     def __init__(self):
-        self.API_KEY = 'vwg4NPXZwm7D2n8bvDSS5Xqoi'
-        self.API_SECRET_KEY = 'jz5GlLoBAxJZJFdVFOQg3SfcwKaaXTYtniyTQxFKBjWBDLW61u'
-        self.ACCESS_TOKEN = '3394473448-dtERpRINiBbmcYHtbSC5aIgG9HvnqyFx5phJp8c'
-        self.ACCESS_TOKEN_SECRET = 'gsrjoDDOP1LPDUnV9sBppIDAkwDKnuYKLG6gKrJOdEONA'
+        self.API_KEY = ''
+        self.API_SECRET_KEY = ''
+        self.ACCESS_TOKEN = ''
+        self.ACCESS_TOKEN_SECRET = ''
 
         try:
             auth = OAuthHandler(self.API_KEY, self.API_SECRET_KEY)
